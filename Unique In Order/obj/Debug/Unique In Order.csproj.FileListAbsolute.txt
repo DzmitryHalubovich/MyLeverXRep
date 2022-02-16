@@ -1,0 +1,6 @@
+G:\M1-NET Basics\Unique In Order\bin\Debug\Unique In Order.exe.config
+G:\M1-NET Basics\Unique In Order\bin\Debug\Unique In Order.exe
+G:\M1-NET Basics\Unique In Order\bin\Debug\Unique In Order.pdb
+G:\M1-NET Basics\Unique In Order\obj\Debug\Unique In Order.csproj.CoreCompileInputs.cache
+G:\M1-NET Basics\Unique In Order\obj\Debug\Unique In Order.exe
+G:\M1-NET Basics\Unique In Order\obj\Debug\Unique In Order.pdb

@@ -1,0 +1,6 @@
+G:\M1-NET Basics\Count IP Addresses\bin\Debug\Count IP Addresses.exe.config
+G:\M1-NET Basics\Count IP Addresses\bin\Debug\Count IP Addresses.exe
+G:\M1-NET Basics\Count IP Addresses\bin\Debug\Count IP Addresses.pdb
+G:\M1-NET Basics\Count IP Addresses\obj\Debug\Count IP Addresses.csproj.CoreCompileInputs.cache
+G:\M1-NET Basics\Count IP Addresses\obj\Debug\Count IP Addresses.exe
+G:\M1-NET Basics\Count IP Addresses\obj\Debug\Count IP Addresses.pdb

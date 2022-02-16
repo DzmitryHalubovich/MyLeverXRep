@@ -1,0 +1,6 @@
+G:\M1-NET Basics\Numericals of a String\bin\Debug\Numericals of a String.exe.config
+G:\M1-NET Basics\Numericals of a String\bin\Debug\Numericals of a String.exe
+G:\M1-NET Basics\Numericals of a String\bin\Debug\Numericals of a String.pdb
+G:\M1-NET Basics\Numericals of a String\obj\Debug\Numericals of a String.csproj.CoreCompileInputs.cache
+G:\M1-NET Basics\Numericals of a String\obj\Debug\Numericals of a String.exe
+G:\M1-NET Basics\Numericals of a String\obj\Debug\Numericals of a String.pdb
