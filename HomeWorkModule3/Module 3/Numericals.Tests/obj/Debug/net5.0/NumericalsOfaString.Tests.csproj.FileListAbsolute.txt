@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\Numericals.Tests\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\Numericals.Tests\obj\Debug\net5.0\NumericalsOfaString.Tests.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\Numericals.Tests\obj\Debug\net5.0\NumericalsOfaString.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\Numericals.Tests\obj\Debug\net5.0\NumericalsOfaString.Tests.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\Numericals.Tests\obj\Debug\net5.0\NumericalsOfaString.Tests.AssemblyInfo.cs
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\Numericals.Tests\obj\Debug\net5.0\NumericalsOfaString.Tests.csproj.CoreCompileInputs.cache

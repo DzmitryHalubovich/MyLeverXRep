@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\TheClockwiseSpiral\bin\Debug\net5.0\TheClockwiseSpiral.deps.json
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\TheClockwiseSpiral\bin\Debug\net5.0\TheClockwiseSpiral.dll
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\TheClockwiseSpiral\bin\Debug\net5.0\ref\TheClockwiseSpiral.dll
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\TheClockwiseSpiral\bin\Debug\net5.0\TheClockwiseSpiral.pdb
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\TheClockwiseSpiral\obj\Debug\net5.0\TheClockwiseSpiral.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\TheClockwiseSpiral\obj\Debug\net5.0\TheClockwiseSpiral.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\TheClockwiseSpiral\obj\Debug\net5.0\TheClockwiseSpiral.AssemblyInfo.cs
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\TheClockwiseSpiral\obj\Debug\net5.0\TheClockwiseSpiral.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\TheClockwiseSpiral\obj\Debug\net5.0\TheClockwiseSpiral.dll
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\TheClockwiseSpiral\obj\Debug\net5.0\ref\TheClockwiseSpiral.dll
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\TheClockwiseSpiral\obj\Debug\net5.0\TheClockwiseSpiral.pdb

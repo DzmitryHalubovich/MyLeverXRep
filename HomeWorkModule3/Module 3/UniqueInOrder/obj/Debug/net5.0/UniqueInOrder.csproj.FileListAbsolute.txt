@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\UniqueInOrder\bin\Debug\net5.0\UniqueInOrder.deps.json
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\UniqueInOrder\bin\Debug\net5.0\UniqueInOrder.dll
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\UniqueInOrder\bin\Debug\net5.0\ref\UniqueInOrder.dll
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\UniqueInOrder\bin\Debug\net5.0\UniqueInOrder.pdb
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\UniqueInOrder\obj\Debug\net5.0\UniqueInOrder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\UniqueInOrder\obj\Debug\net5.0\UniqueInOrder.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\UniqueInOrder\obj\Debug\net5.0\UniqueInOrder.AssemblyInfo.cs
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\UniqueInOrder\obj\Debug\net5.0\UniqueInOrder.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\UniqueInOrder\obj\Debug\net5.0\UniqueInOrder.dll
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\UniqueInOrder\obj\Debug\net5.0\ref\UniqueInOrder.dll
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\UniqueInOrder\obj\Debug\net5.0\UniqueInOrder.pdb

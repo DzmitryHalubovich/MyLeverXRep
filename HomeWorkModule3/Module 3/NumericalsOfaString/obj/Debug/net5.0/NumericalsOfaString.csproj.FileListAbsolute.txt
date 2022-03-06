@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\NumericalsOfaString\bin\Debug\net5.0\NumericalsOfaString.deps.json
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\NumericalsOfaString\bin\Debug\net5.0\NumericalsOfaString.dll
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\NumericalsOfaString\bin\Debug\net5.0\ref\NumericalsOfaString.dll
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\NumericalsOfaString\bin\Debug\net5.0\NumericalsOfaString.pdb
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\NumericalsOfaString\obj\Debug\net5.0\NumericalsOfaString.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\NumericalsOfaString\obj\Debug\net5.0\NumericalsOfaString.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\NumericalsOfaString\obj\Debug\net5.0\NumericalsOfaString.AssemblyInfo.cs
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\NumericalsOfaString\obj\Debug\net5.0\NumericalsOfaString.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\NumericalsOfaString\obj\Debug\net5.0\NumericalsOfaString.dll
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\NumericalsOfaString\obj\Debug\net5.0\ref\NumericalsOfaString.dll
+C:\Users\User\Desktop\HomeWorkModule3\Module 3\NumericalsOfaString\obj\Debug\net5.0\NumericalsOfaString.pdb
