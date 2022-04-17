@@ -1,0 +1,16 @@
+C:\Users\buxar\source\repos\HarryPotterBook\HarryPotterBook\bin\Debug\net5.0\HarryPotterBook.exe
+C:\Users\buxar\source\repos\HarryPotterBook\HarryPotterBook\bin\Debug\net5.0\HarryPotterBook.deps.json
+C:\Users\buxar\source\repos\HarryPotterBook\HarryPotterBook\bin\Debug\net5.0\HarryPotterBook.runtimeconfig.json
+C:\Users\buxar\source\repos\HarryPotterBook\HarryPotterBook\bin\Debug\net5.0\HarryPotterBook.runtimeconfig.dev.json
+C:\Users\buxar\source\repos\HarryPotterBook\HarryPotterBook\bin\Debug\net5.0\HarryPotterBook.dll
+C:\Users\buxar\source\repos\HarryPotterBook\HarryPotterBook\bin\Debug\net5.0\ref\HarryPotterBook.dll
+C:\Users\buxar\source\repos\HarryPotterBook\HarryPotterBook\bin\Debug\net5.0\HarryPotterBook.pdb
+C:\Users\buxar\source\repos\HarryPotterBook\HarryPotterBook\obj\Debug\net5.0\HarryPotterBook.csproj.AssemblyReference.cache
+C:\Users\buxar\source\repos\HarryPotterBook\HarryPotterBook\obj\Debug\net5.0\HarryPotterBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buxar\source\repos\HarryPotterBook\HarryPotterBook\obj\Debug\net5.0\HarryPotterBook.AssemblyInfoInputs.cache
+C:\Users\buxar\source\repos\HarryPotterBook\HarryPotterBook\obj\Debug\net5.0\HarryPotterBook.AssemblyInfo.cs
+C:\Users\buxar\source\repos\HarryPotterBook\HarryPotterBook\obj\Debug\net5.0\HarryPotterBook.csproj.CoreCompileInputs.cache
+C:\Users\buxar\source\repos\HarryPotterBook\HarryPotterBook\obj\Debug\net5.0\HarryPotterBook.dll
+C:\Users\buxar\source\repos\HarryPotterBook\HarryPotterBook\obj\Debug\net5.0\ref\HarryPotterBook.dll
+C:\Users\buxar\source\repos\HarryPotterBook\HarryPotterBook\obj\Debug\net5.0\HarryPotterBook.pdb
+C:\Users\buxar\source\repos\HarryPotterBook\HarryPotterBook\obj\Debug\net5.0\HarryPotterBook.genruntimeconfig.cache
