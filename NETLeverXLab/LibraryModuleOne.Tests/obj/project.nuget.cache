@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "340dJBHfOcm+j/n9Q/hJrcTH9LkkqM1J8I5XtmdzsffqMLgkCpFq5jlIGvVhCun9uqOYDcetos3aMYfEgAxUaw==",
+  "dgSpecHash": "Pvs0PoQJPxYPY4Yq+8FAhm53iOUROgQaz7tyrnO0Jj7Ibs73mGm+Q5tSEZc6uS7gsbVvFmiEGdVoZCZBEFX4XQ==",
   "success": true,
-  "projectFilePath": "E:\\DeepDarkRep\\NETLeverXLab\\LibraryModuleOne.Tests\\LibraryModuleOne.Tests.csproj",
+  "projectFilePath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\NETLeverXLab\\LibraryModuleOne.Tests\\LibraryModuleOne.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\buxar\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\buxar\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
