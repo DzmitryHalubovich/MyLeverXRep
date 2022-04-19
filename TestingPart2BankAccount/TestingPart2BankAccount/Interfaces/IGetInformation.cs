@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace TestingPart2BankAccount.Interfaces
 {
-    interface IGetSSN
+    public interface IGetInformation
     {
+        public void GetInformation();
+
     }
 }

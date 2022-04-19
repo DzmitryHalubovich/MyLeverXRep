@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\buxar\\source\\repos\\TestingPart2BankAccount\\TestingPart2BankAccount.Tests\\TestingPart2BankAccount.Tests.csproj": {}
+    "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\TestingPart2BankAccount\\TestingPart2BankAccount.Tests\\TestingPart2BankAccount.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\buxar\\source\\repos\\TestingPart2BankAccount\\TestingPart2BankAccount.Tests\\TestingPart2BankAccount.Tests.csproj": {
+    "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\TestingPart2BankAccount\\TestingPart2BankAccount.Tests\\TestingPart2BankAccount.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\buxar\\source\\repos\\TestingPart2BankAccount\\TestingPart2BankAccount.Tests\\TestingPart2BankAccount.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\TestingPart2BankAccount\\TestingPart2BankAccount.Tests\\TestingPart2BankAccount.Tests.csproj",
         "projectName": "TestingPart2BankAccount.Tests",
-        "projectPath": "C:\\Users\\buxar\\source\\repos\\TestingPart2BankAccount\\TestingPart2BankAccount.Tests\\TestingPart2BankAccount.Tests.csproj",
+        "projectPath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\TestingPart2BankAccount\\TestingPart2BankAccount.Tests\\TestingPart2BankAccount.Tests.csproj",
         "packagesPath": "C:\\Users\\buxar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\buxar\\source\\repos\\TestingPart2BankAccount\\TestingPart2BankAccount.Tests\\obj\\",
+        "outputPath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\TestingPart2BankAccount\\TestingPart2BankAccount.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\buxar\\source\\repos\\TestingPart2BankAccount\\TestingPart2BankAccount\\TestingPart2BankAccount.csproj": {
-                "projectPath": "C:\\Users\\buxar\\source\\repos\\TestingPart2BankAccount\\TestingPart2BankAccount\\TestingPart2BankAccount.csproj"
+              "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\TestingPart2BankAccount\\TestingPart2BankAccount\\TestingPart2BankAccount.csproj": {
+                "projectPath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\TestingPart2BankAccount\\TestingPart2BankAccount\\TestingPart2BankAccount.csproj"
               }
             }
           }
@@ -51,10 +51,6 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.9.4, )"
-            },
-            "NSubstitute": {
-              "target": "Package",
-              "version": "[4.3.0, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -92,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\buxar\\source\\repos\\TestingPart2BankAccount\\TestingPart2BankAccount\\TestingPart2BankAccount.csproj": {
+    "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\TestingPart2BankAccount\\TestingPart2BankAccount\\TestingPart2BankAccount.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\buxar\\source\\repos\\TestingPart2BankAccount\\TestingPart2BankAccount\\TestingPart2BankAccount.csproj",
+        "projectUniqueName": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\TestingPart2BankAccount\\TestingPart2BankAccount\\TestingPart2BankAccount.csproj",
         "projectName": "TestingPart2BankAccount",
-        "projectPath": "C:\\Users\\buxar\\source\\repos\\TestingPart2BankAccount\\TestingPart2BankAccount\\TestingPart2BankAccount.csproj",
+        "projectPath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\TestingPart2BankAccount\\TestingPart2BankAccount\\TestingPart2BankAccount.csproj",
         "packagesPath": "C:\\Users\\buxar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\buxar\\source\\repos\\TestingPart2BankAccount\\TestingPart2BankAccount\\obj\\",
+        "outputPath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\TestingPart2BankAccount\\TestingPart2BankAccount\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TestingPart2BankAccount/1.0.0": {
+        "runtime": {
+          "TestingPart2BankAccount.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestingPart2BankAccount/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
