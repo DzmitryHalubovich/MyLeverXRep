@@ -2,7 +2,6 @@ C:\Users\buxar\OneDrive\Рабочий стол\TestingPart2BankAccount\TestingP
 C:\Users\buxar\OneDrive\Рабочий стол\TestingPart2BankAccount\TestingPart2BankAccount\bin\Debug\net5.0\TestingPart2BankAccount.dll
 C:\Users\buxar\OneDrive\Рабочий стол\TestingPart2BankAccount\TestingPart2BankAccount\bin\Debug\net5.0\ref\TestingPart2BankAccount.dll
 C:\Users\buxar\OneDrive\Рабочий стол\TestingPart2BankAccount\TestingPart2BankAccount\bin\Debug\net5.0\TestingPart2BankAccount.pdb
-C:\Users\buxar\OneDrive\Рабочий стол\TestingPart2BankAccount\TestingPart2BankAccount\obj\Debug\net5.0\TestingPart2BankAccount.csproj.AssemblyReference.cache
 C:\Users\buxar\OneDrive\Рабочий стол\TestingPart2BankAccount\TestingPart2BankAccount\obj\Debug\net5.0\TestingPart2BankAccount.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\buxar\OneDrive\Рабочий стол\TestingPart2BankAccount\TestingPart2BankAccount\obj\Debug\net5.0\TestingPart2BankAccount.AssemblyInfoInputs.cache
 C:\Users\buxar\OneDrive\Рабочий стол\TestingPart2BankAccount\TestingPart2BankAccount\obj\Debug\net5.0\TestingPart2BankAccount.AssemblyInfo.cs
@@ -10,3 +9,4 @@ C:\Users\buxar\OneDrive\Рабочий стол\TestingPart2BankAccount\TestingP
 C:\Users\buxar\OneDrive\Рабочий стол\TestingPart2BankAccount\TestingPart2BankAccount\obj\Debug\net5.0\TestingPart2BankAccount.dll
 C:\Users\buxar\OneDrive\Рабочий стол\TestingPart2BankAccount\TestingPart2BankAccount\obj\Debug\net5.0\ref\TestingPart2BankAccount.dll
 C:\Users\buxar\OneDrive\Рабочий стол\TestingPart2BankAccount\TestingPart2BankAccount\obj\Debug\net5.0\TestingPart2BankAccount.pdb
+C:\Users\buxar\OneDrive\Рабочий стол\TestingPart2BankAccount\TestingPart2BankAccount\obj\Debug\net5.0\TestingPart2BankAccount.csproj.AssemblyReference.cache

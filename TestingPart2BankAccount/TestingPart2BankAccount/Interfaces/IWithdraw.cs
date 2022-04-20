@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace TestingPart2BankAccount.Interfaces
 {
-    public interface IGetInformation
+    public interface IWithdraw
     {
-        public string GetInformation();
-
+        public decimal Withdraw(decimal amount);
     }
 }
