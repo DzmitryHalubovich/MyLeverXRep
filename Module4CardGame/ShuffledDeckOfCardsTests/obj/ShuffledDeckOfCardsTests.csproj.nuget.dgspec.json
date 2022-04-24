@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\buxar\\OneDrive\\Документы\\GitHub\\MyLeverXRep\\Module4CardGame\\ShuffledDeckOfCardsTests\\ShuffledDeckOfCardsTests.csproj": {}
+    "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\ShuffledDeckOfCardsTests\\ShuffledDeckOfCardsTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\buxar\\OneDrive\\Документы\\GitHub\\MyLeverXRep\\Module4CardGame\\Module4\\Module4.csproj": {
+    "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\Module4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\buxar\\OneDrive\\Документы\\GitHub\\MyLeverXRep\\Module4CardGame\\Module4\\Module4.csproj",
+        "projectUniqueName": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\Module4.csproj",
         "projectName": "Module4",
-        "projectPath": "C:\\Users\\buxar\\OneDrive\\Документы\\GitHub\\MyLeverXRep\\Module4CardGame\\Module4\\Module4.csproj",
+        "projectPath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\Module4.csproj",
         "packagesPath": "C:\\Users\\buxar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\buxar\\OneDrive\\Документы\\GitHub\\MyLeverXRep\\Module4CardGame\\Module4\\obj\\",
+        "outputPath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\buxar\\OneDrive\\Документы\\GitHub\\MyLeverXRep\\Module4CardGame\\ShuffledDeckOfCardsTests\\ShuffledDeckOfCardsTests.csproj": {
+    "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\ShuffledDeckOfCardsTests\\ShuffledDeckOfCardsTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\buxar\\OneDrive\\Документы\\GitHub\\MyLeverXRep\\Module4CardGame\\ShuffledDeckOfCardsTests\\ShuffledDeckOfCardsTests.csproj",
+        "projectUniqueName": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\ShuffledDeckOfCardsTests\\ShuffledDeckOfCardsTests.csproj",
         "projectName": "ShuffledDeckOfCardsTests",
-        "projectPath": "C:\\Users\\buxar\\OneDrive\\Документы\\GitHub\\MyLeverXRep\\Module4CardGame\\ShuffledDeckOfCardsTests\\ShuffledDeckOfCardsTests.csproj",
+        "projectPath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\ShuffledDeckOfCardsTests\\ShuffledDeckOfCardsTests.csproj",
         "packagesPath": "C:\\Users\\buxar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\buxar\\OneDrive\\Документы\\GitHub\\MyLeverXRep\\Module4CardGame\\ShuffledDeckOfCardsTests\\obj\\",
+        "outputPath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\ShuffledDeckOfCardsTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -90,8 +90,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\buxar\\OneDrive\\Документы\\GitHub\\MyLeverXRep\\Module4CardGame\\Module4\\Module4.csproj": {
-                "projectPath": "C:\\Users\\buxar\\OneDrive\\Документы\\GitHub\\MyLeverXRep\\Module4CardGame\\Module4\\Module4.csproj"
+              "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\Module4.csproj": {
+                "projectPath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\Module4.csproj"
               }
             }
           }

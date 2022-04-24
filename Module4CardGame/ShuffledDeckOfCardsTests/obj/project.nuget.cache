@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+WR6c7wKcdRHQLEOHFA+MtG0U9pFfej2he6C3S/6rZSkY0EbhxZ1T+4+XpSz8g9RWUu11ULx9FoQpTjLxj48VA==",
+  "dgSpecHash": "vxXyG5LhcxwVLuRug+SiiUpWQaUkZNBVd1/6eTnssaGsfd+8OLiWFNkRupFGrSdPGpFfSDwkcyfNYN4ymQCZ6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\buxar\\OneDrive\\Документы\\GitHub\\MyLeverXRep\\Module4CardGame\\ShuffledDeckOfCardsTests\\ShuffledDeckOfCardsTests.csproj",
+  "projectFilePath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\ShuffledDeckOfCardsTests\\ShuffledDeckOfCardsTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\buxar\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\buxar\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
