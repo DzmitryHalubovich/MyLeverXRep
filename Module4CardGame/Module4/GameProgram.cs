@@ -24,6 +24,8 @@ List<int> player1 = shuffle.GetRange(0,20);
 List<int> player2 = shuffle.GetRange(20, 20);
 List<int> discardPile1 = new List<int>(); 
 List<int> discardPile2 = new List<int>();
+List<int> tempPile = new List<int>();
+
 
 int ScoreOfPlayer1 = 0;
 int ScoreOfPlayer2 = 0;
@@ -34,7 +36,7 @@ int ScoreOfPlayer2 = 0;
 //foreach (int i in player2) { Console.Write(i+ " "); }
 
 //Play
-while (player1.Count()>0 || player2.Count()>0)
+while ((player1.Count()>0 && discardPile1.Count>0) || (player2.Count()>0 && discardPile2.Count>0))
 {
     Console.ReadKey();
     //for (int i = 0; player1.Count > 0 || player2.Count > 0; i++)
@@ -47,34 +49,44 @@ while (player1.Count()>0 || player2.Count()>0)
 
     if (player1.Last()>player2.Last())
     {
-        discardPile1.Add(player2.Last());
         discardPile1.Add(player1.Last());
+        discardPile1.Add(player2.Last());
+        discardPile1.AddRange(tempPile);
+        tempPile.Clear();
         //player1.Insert(0,player2.Last());
         //player1.Add(player2.First());
-        player1.RemoveAt(player2.Last());
-        player2.RemoveAt(player2.Last());
-        Console.WriteLine($"Player 1 ({player1.Count} cards): {player1.Last()}");
-        Console.WriteLine($"Player 2 ({player2.Count} cards): {player2.Last()}");
+        player1.Remove(player1.Last());
+        player2.Remove(player2.Last());
+        Console.WriteLine("Количество карт в колоде " + shuffle.Count());
+        Console.WriteLine($"Player 1 ({player1.Count + discardPile1.Count} cards): {player1.Last()}");
+        Console.WriteLine($"Player 2 ({player2.Count + discardPile2.Count} cards): {player2.Last()}");
         Console.WriteLine("Player 1 wins this round\n");
     }
     if (player1.Last()<player2.Last())
     {
         discardPile2.Add(player1.Last());
         discardPile2.Add(player2.Last());
+        discardPile2.AddRange(tempPile);
+        tempPile.Clear();
+
         //player2.Insert(0,player1.Last());
         //player1.RemoveAt(player1.Last());
-        player1.RemoveAt(player2.Last());
-        player2.RemoveAt(player2.Last());
+        player1.Remove(player1.Last());
+        player2.Remove(player2.Last());
+
         Console.WriteLine($"Player 1 ({player1.Count + discardPile1.Count} cards): {player1.Last()}");
-        Console.WriteLine($"Player 2 ({player2.Count+discardPile2.Count} cards): {player2.Last()}");
+        Console.WriteLine($"Player 2 ({player2.Count + discardPile2.Count} cards): {player2.Last()}");
         Console.WriteLine("Player 2 wins this round");
     }
     if (player1.Last()==player2.Last())
     {
+        tempPile.Add(player1.Last());
+        tempPile.Add(player2.Last());
+
         //discardPile1.Add(player1.Last());
         //discardPile2.Add(player2.Last());
-        player1.RemoveAt(player1.Last());
-        player2.RemoveAt(player2.Last());
+        player1.Remove(player1.Last());
+        player2.Remove(player2.Last());
     }
 }
 if (player1.Count()>0)
