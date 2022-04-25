@@ -6,7 +6,7 @@ MyList<int> shuffle = new MyList<int>();
 
 
 
-for (int i = 0; i < 4; i++) //Инициализируем массив (Я для себя пишу комменты, по этому на русском)
+for (int i = 0; i < 4; i++) 
 {
     for (int j = 1; j < 11; j++)
     {
@@ -32,9 +32,9 @@ while (true)
     int card1 = 0;
     int card2 = 0;
 
-    foreach (int i in player1) { Console.Write(i + " "); }
+    foreach (int i in player1) { Console.Write(i + " "); } //For debug
     Console.WriteLine();
-    foreach (int i in player2) { Console.Write(i + " "); }
+    foreach (int i in player2) { Console.Write(i + " "); } //For debug
 
     while (player1.Count>0 && player2.Count > 0)
     {
@@ -49,16 +49,16 @@ while (true)
         {
             tempPile.Add(card1);
             tempPile.Add(card2);
-            player1.Remove(player1.Last());
-            player2.Remove(player2.Last());
-
+            player1.RemoveAt(player1.Count-1);
+            player2.RemoveAt(player2.Count-1);
+            Console.WriteLine("No winner in this round");
         }
         else if (card1>card2)
         {
             discardPile1.Add(card2);
             discardPile1.Add(card1);
-            player1.Remove(player1.Last());
-            player2.Remove(player2.Last());
+            player1.RemoveAt(player1.Count-1);
+            player2.RemoveAt(player2.Count-1);
             if (tempPile.Count()>0)
             {
                 discardPile1.AddRange(tempPile);
@@ -70,8 +70,8 @@ while (true)
         {
             discardPile2.Add(card2);
             discardPile2.Add(card1);
-            player1.Remove(player1.Last());
-            player2.Remove(player2.Last());
+            player1.RemoveAt(player1.Count-1);
+            player2.RemoveAt(player2.Count-1);
             if (tempPile.Count()>0)
             {
                 discardPile2.AddRange(tempPile);
@@ -83,12 +83,12 @@ while (true)
 
     if (player1.Count == 0 && discardPile1.Count ==0)
     {
-        Console.WriteLine("Игрок 2 победил!");
+        Console.WriteLine("Player 2 wins this game!");
         break;
     }
     else if (player2.Count == 0 && discardPile2.Count ==0)
     {
-        Console.WriteLine("Игрок 1 победил!");
+        Console.WriteLine("Player 1 wins this game!");
         break;
     }
     else if (player1.Count==0)
