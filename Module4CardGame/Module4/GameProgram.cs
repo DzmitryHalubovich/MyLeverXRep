@@ -14,89 +14,94 @@ for (int i = 0; i < 4; i++) //Инициализируем массив (Я дл
     }
 }
 
-
-//shuffle.Initialization();
 shuffle.Shuffle(); //перемешиваем
-//Console.WriteLine(shuffle.Count()); //ОТЛАДКА
-//foreach (int i in shuffle) { Console.Write(i+ " "); }
 
-List<int> player1 = shuffle.GetRange(0,20);
-List<int> player2 = shuffle.GetRange(20, 20);
-List<int> discardPile1 = new List<int>(); 
-List<int> discardPile2 = new List<int>();
+List<int> player1 = shuffle.GetRange(0,5); // GetRange(0,20);
+List<int> player2 = shuffle.GetRange(5, 5); // GetRange(20, 20);
+MyList<int> discardPile1 = new MyList<int>();
+MyList<int> discardPile2 = new MyList<int>();
 List<int> tempPile = new List<int>();
 
-
-int ScoreOfPlayer1 = 0;
-int ScoreOfPlayer2 = 0;
-
-//Console.WriteLine("\n////////");
-//foreach (int i in player1) { Console.Write(i+ " "); }
+//foreach (int i in player1) { Console.Write(i + " "); }
 //Console.WriteLine();
-//foreach (int i in player2) { Console.Write(i+ " "); }
+//foreach (int i in player2) { Console.Write(i + " "); }
 
-//Play
-while ((player1.Count()>0 && discardPile1.Count>0) || (player2.Count()>0 && discardPile2.Count>0))
+
+while (true) 
 {
-    Console.ReadKey();
-    //for (int i = 0; player1.Count > 0 || player2.Count > 0; i++)
-    //{
-    //    ScoreOfPlayer1 += player1[i];
-    //    ScoreOfPlayer2 += player2[i];
-    //    discardPile1.Add(player1[i]);
-    //    discardPile2.Add(player2[i]);
-    //}
+    int card1 = 0;
+    int card2 = 0;
 
-    if (player1.Last()>player2.Last())
+    foreach (int i in player1) { Console.Write(i + " "); }
+    Console.WriteLine();
+    foreach (int i in player2) { Console.Write(i + " "); }
+
+    while (player1.Count>0 && player2.Count > 0)
     {
-        discardPile1.Add(player1.Last());
-        discardPile1.Add(player2.Last());
-        discardPile1.AddRange(tempPile);
-        tempPile.Clear();
-        //player1.Insert(0,player2.Last());
-        //player1.Add(player2.First());
-        player1.Remove(player1.Last());
-        player2.Remove(player2.Last());
-        Console.WriteLine("Количество карт в колоде " + shuffle.Count());
-        Console.WriteLine($"Player 1 ({player1.Count + discardPile1.Count} cards): {player1.Last()}");
-        Console.WriteLine($"Player 2 ({player2.Count + discardPile2.Count} cards): {player2.Last()}");
-        Console.WriteLine("Player 1 wins this round\n");
+        //Console.ReadKey();
+        card1 = player1.Last();
+        card2 = player2.Last();
+        Console.WriteLine($"\nPlayer 1 ({player1.Count} + {discardPile1.Count} res cards): {card1}");
+        Console.WriteLine($"Player 2 ({player2.Count} + {discardPile2.Count} res cards): {card2}");
+        Thread.Sleep(400);
+
+        if (card1 == card2)
+        {
+            tempPile.Add(card1);
+            tempPile.Add(card2);
+            player1.Remove(player1.Last());
+            player2.Remove(player2.Last());
+
+        }
+        else if (card1>card2)
+        {
+            discardPile1.Add(card2);
+            discardPile1.Add(card1);
+            player1.Remove(player1.Last());
+            player2.Remove(player2.Last());
+            if (tempPile.Count()>0)
+            {
+                discardPile1.AddRange(tempPile);
+                tempPile.Clear();
+            }
+            Console.WriteLine("Player 1 wins this round");
+        }
+        else if (card1<card2)
+        {
+            discardPile2.Add(card2);
+            discardPile2.Add(card1);
+            player1.Remove(player1.Last());
+            player2.Remove(player2.Last());
+            if (tempPile.Count()>0)
+            {
+                discardPile2.AddRange(tempPile);
+                tempPile.Clear();
+            }
+            Console.WriteLine("Player 2 wins this round");
+        }
     }
-    if (player1.Last()<player2.Last())
+
+    if (player1.Count == 0 && discardPile1.Count ==0)
     {
-        discardPile2.Add(player1.Last());
-        discardPile2.Add(player2.Last());
-        discardPile2.AddRange(tempPile);
-        tempPile.Clear();
-
-        //player2.Insert(0,player1.Last());
-        //player1.RemoveAt(player1.Last());
-        player1.Remove(player1.Last());
-        player2.Remove(player2.Last());
-
-        Console.WriteLine($"Player 1 ({player1.Count + discardPile1.Count} cards): {player1.Last()}");
-        Console.WriteLine($"Player 2 ({player2.Count + discardPile2.Count} cards): {player2.Last()}");
-        Console.WriteLine("Player 2 wins this round");
+        Console.WriteLine("Игрок 2 победил!");
+        break;
     }
-    if (player1.Last()==player2.Last())
+    else if (player2.Count == 0 && discardPile2.Count ==0)
     {
-        tempPile.Add(player1.Last());
-        tempPile.Add(player2.Last());
-
-        //discardPile1.Add(player1.Last());
-        //discardPile2.Add(player2.Last());
-        player1.Remove(player1.Last());
-        player2.Remove(player2.Last());
+        Console.WriteLine("Игрок 1 победил!");
+        break;
     }
-}
-if (player1.Count()>0)
-{
-    Console.WriteLine("Player 1 wins the game!");
-}
-else
-{
-    Console.WriteLine("Player 2 wins the game!");
-}
+    else if (player1.Count==0)
+    {
+        discardPile1.Shuffle();
+        player1.AddRange(discardPile1);
+        discardPile1.Clear();
+    }
+    else if (player2.Count==0)
+    {
+        discardPile2.Shuffle();
+        player2.AddRange(discardPile2);
+        discardPile2.Clear();
+    }
+} 
 
-//Console.WriteLine("\nСумма всех карт первого игрока " + player1.Sum(x => x));
-//Console.WriteLine("Сумма всех карт второго игрока " + player2.Sum(x => x));
