@@ -1,0 +1,15 @@
+C:\Users\buxar\OneDrive\Рабочий стол\Module4CardGame\Module4\bin\Debug\net6.0\ShuffledDeckOfCards.exe
+C:\Users\buxar\OneDrive\Рабочий стол\Module4CardGame\Module4\bin\Debug\net6.0\ShuffledDeckOfCards.deps.json
+C:\Users\buxar\OneDrive\Рабочий стол\Module4CardGame\Module4\bin\Debug\net6.0\ShuffledDeckOfCards.runtimeconfig.json
+C:\Users\buxar\OneDrive\Рабочий стол\Module4CardGame\Module4\bin\Debug\net6.0\ShuffledDeckOfCards.dll
+C:\Users\buxar\OneDrive\Рабочий стол\Module4CardGame\Module4\bin\Debug\net6.0\ShuffledDeckOfCards.pdb
+C:\Users\buxar\OneDrive\Рабочий стол\Module4CardGame\Module4\obj\Debug\net6.0\ShuffledDeckOfCards.csproj.AssemblyReference.cache
+C:\Users\buxar\OneDrive\Рабочий стол\Module4CardGame\Module4\obj\Debug\net6.0\ShuffledDeckOfCards.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\buxar\OneDrive\Рабочий стол\Module4CardGame\Module4\obj\Debug\net6.0\ShuffledDeckOfCards.AssemblyInfoInputs.cache
+C:\Users\buxar\OneDrive\Рабочий стол\Module4CardGame\Module4\obj\Debug\net6.0\ShuffledDeckOfCards.AssemblyInfo.cs
+C:\Users\buxar\OneDrive\Рабочий стол\Module4CardGame\Module4\obj\Debug\net6.0\ShuffledDeckOfCards.csproj.CoreCompileInputs.cache
+C:\Users\buxar\OneDrive\Рабочий стол\Module4CardGame\Module4\obj\Debug\net6.0\ShuffledDeckOfCards.dll
+C:\Users\buxar\OneDrive\Рабочий стол\Module4CardGame\Module4\obj\Debug\net6.0\refint\ShuffledDeckOfCards.dll
+C:\Users\buxar\OneDrive\Рабочий стол\Module4CardGame\Module4\obj\Debug\net6.0\ShuffledDeckOfCards.pdb
+C:\Users\buxar\OneDrive\Рабочий стол\Module4CardGame\Module4\obj\Debug\net6.0\ShuffledDeckOfCards.genruntimeconfig.cache
+C:\Users\buxar\OneDrive\Рабочий стол\Module4CardGame\Module4\obj\Debug\net6.0\ref\ShuffledDeckOfCards.dll

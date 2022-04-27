@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "POD86qjBtQ8adEmk6eksaDArw2eQiHtpbTdO8EiNeQR3t+IhwemDTC0bMPzKNyKxXPELzs3XOEfJGBI1LRDzww==",
+  "dgSpecHash": "6cnDzv41qU4yZ3IW9Aelck+LKGzQ2mxMYNSoxAyuloa7eZrdGXyd9MMMT2YkTo4Mpl6VMFigATgTRoThX4Kfog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\Module4.csproj",
+  "projectFilePath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\ShuffledDeckOfCards.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

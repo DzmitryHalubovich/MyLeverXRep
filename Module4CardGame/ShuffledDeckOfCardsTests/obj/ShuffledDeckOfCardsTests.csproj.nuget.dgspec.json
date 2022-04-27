@@ -4,12 +4,12 @@
     "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\ShuffledDeckOfCardsTests\\ShuffledDeckOfCardsTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\Module4.csproj": {
+    "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\ShuffledDeckOfCards.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\Module4.csproj",
-        "projectName": "Module4",
-        "projectPath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\Module4.csproj",
+        "projectUniqueName": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\ShuffledDeckOfCards.csproj",
+        "projectName": "ShuffledDeckOfCards",
+        "projectPath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\ShuffledDeckOfCards.csproj",
         "packagesPath": "C:\\Users\\buxar\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\obj\\",
         "projectStyle": "PackageReference",
@@ -90,8 +90,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\Module4.csproj": {
-                "projectPath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\Module4.csproj"
+              "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\ShuffledDeckOfCards.csproj": {
+                "projectPath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\ShuffledDeckOfCards.csproj"
               }
             }
           }

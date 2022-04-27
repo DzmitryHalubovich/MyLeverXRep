@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\Module4.csproj",
-      "projectName": "Module4",
-      "projectPath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\Module4.csproj",
+      "projectUniqueName": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\ShuffledDeckOfCards.csproj",
+      "projectName": "ShuffledDeckOfCards",
+      "projectPath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\ShuffledDeckOfCards.csproj",
       "packagesPath": "C:\\Users\\buxar\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\obj\\",
       "projectStyle": "PackageReference",

@@ -9,7 +9,7 @@
       "ShuffledDeckOfCardsTests/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "16.11.0",
-          "Module4": "1.0.0",
+          "ShuffledDeckOfCards": "1.0.0",
           "coverlet.collector": "3.1.0",
           "xunit": "2.4.1",
           "xunit.runner.visualstudio": "2.4.3"
@@ -1090,9 +1090,9 @@
         }
       },
       "xunit.runner.visualstudio/2.4.3": {},
-      "Module4/1.0.0": {
+      "ShuffledDeckOfCards/1.0.0": {
         "runtime": {
-          "Module4.dll": {}
+          "ShuffledDeckOfCards.dll": {}
         }
       }
     }
@@ -1747,7 +1747,7 @@
       "path": "xunit.runner.visualstudio/2.4.3",
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
     },
-    "Module4/1.0.0": {
+    "ShuffledDeckOfCards/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

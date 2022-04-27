@@ -1671,14 +1671,14 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "Module4/1.0.0": {
+      "ShuffledDeckOfCards/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Module4.dll": {}
+          "bin/placeholder/ShuffledDeckOfCards.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Module4.dll": {}
+          "bin/placeholder/ShuffledDeckOfCards.dll": {}
         }
       }
     }
@@ -5973,16 +5973,16 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "Module4/1.0.0": {
+    "ShuffledDeckOfCards/1.0.0": {
       "type": "project",
-      "path": "../Module4/Module4.csproj",
-      "msbuildProject": "../Module4/Module4.csproj"
+      "path": "../Module4/ShuffledDeckOfCards.csproj",
+      "msbuildProject": "../Module4/ShuffledDeckOfCards.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.NET.Test.Sdk >= 16.11.0",
-      "Module4 >= 1.0.0",
+      "ShuffledDeckOfCards >= 1.0.0",
       "coverlet.collector >= 3.1.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
@@ -6020,8 +6020,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\Module4.csproj": {
-              "projectPath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\Module4.csproj"
+            "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\ShuffledDeckOfCards.csproj": {
+              "projectPath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\ShuffledDeckOfCards.csproj"
             }
           }
         }

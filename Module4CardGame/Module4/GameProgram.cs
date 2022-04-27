@@ -14,6 +14,8 @@ for (int i = 0; i < 4; i++)
     }
 }
 
+
+
 shuffle.Shuffle(); //перемешиваем
 
 List<int> player1 = shuffle.GetRange(0,5); // GetRange(0,20);
