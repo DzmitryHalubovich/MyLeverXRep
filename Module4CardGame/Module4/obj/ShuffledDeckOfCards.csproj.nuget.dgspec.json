@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\ShuffledDeckOfCards.csproj": {}
+    "C:\\Users\\User\\Desktop\\Module4CardGame\\Module4\\ShuffledDeckOfCards.csproj": {}
   },
   "projects": {
-    "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\ShuffledDeckOfCards.csproj": {
+    "C:\\Users\\User\\Desktop\\Module4CardGame\\Module4\\ShuffledDeckOfCards.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\ShuffledDeckOfCards.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Module4CardGame\\Module4\\ShuffledDeckOfCards.csproj",
         "projectName": "ShuffledDeckOfCards",
-        "projectPath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\ShuffledDeckOfCards.csproj",
-        "packagesPath": "C:\\Users\\buxar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\buxar\\OneDrive\\Рабочий стол\\Module4CardGame\\Module4\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\Module4CardGame\\Module4\\ShuffledDeckOfCards.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Module4CardGame\\Module4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\buxar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
