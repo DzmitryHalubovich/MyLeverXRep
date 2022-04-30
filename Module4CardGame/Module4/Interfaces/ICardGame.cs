@@ -15,7 +15,7 @@ namespace ShuffledDeckOfCards
 
         public string MainGame();
 
-        public void CompareCard();
+        public string CompareCard(int card1, int card2);
 
         public bool CheckPileCardCount();
     }

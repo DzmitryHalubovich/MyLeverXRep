@@ -24,11 +24,27 @@ namespace ShuffledDeckOfCards
         MyList<int> discardPile2 = new MyList<int>();
         List<int> tempPile = new List<int>();
 
-        public FirstGame()
+        public FirstGame(List<int> deck1, List<int> deck2)
+        {
+            player1 = deck1;
+            player2 = deck2;
+        }
+
+        public FirstGame(int deckSize)
         {
             CreateAndReshufflePile();
-            player1 = pile.GetRange(0, 5);
-            player2 = pile.GetRange(5, 5);
+            player1 = pile.GetRange(0, deckSize/2);
+            player2 = pile.GetRange(deckSize/2, deckSize/2);
+        }
+
+        public int CountCardsFirstPlayer
+        {
+            get { return discardPile1.Count(); }
+        }
+
+        public int CountCardsSecondPlayer
+        {
+            get { return player2.Count() + discardPile2.Count(); }
         }
 
         public void CheckBothPlayersPiles()
@@ -41,19 +57,6 @@ namespace ShuffledDeckOfCards
         public bool CheckPileCardCount()
         {
 
-            //if (playerPile.Count()==0)
-            //{
-            //    if (discardPile.Count() == 0)
-            //    {
-            //        return false;
-            //    }
-
-            //    discardPile.Shuffle();
-            //    playerPile.AddRange(discardPile1);
-            //    discardPile.Clear();
-            //}
-            //return true;
-
             if (player1.Count == 0 && discardPile1.Count ==0)
             {
                 vinner = "Player 2 wins this game!";
@@ -64,13 +67,13 @@ namespace ShuffledDeckOfCards
                 vinner = "Player 1 wins this game!";
                 return true;
             }
-            else if (player1.Count==0)
+            if (player1.Count==0)
             {
                 discardPile1.Shuffle();
                 player1.AddRange(discardPile1);
                 discardPile1.Clear();
             }
-            else if (player2.Count==0)
+            if (player2.Count==0)
             {
                 discardPile2.Shuffle();
                 player2.AddRange(discardPile2);
@@ -79,9 +82,7 @@ namespace ShuffledDeckOfCards
             return false;
         }
 
-
-
-        public void CompareCard()
+        public string CompareCard(int card1, int card2)
         {
             if (card1 == card2)
             {
@@ -89,7 +90,7 @@ namespace ShuffledDeckOfCards
                 tempPile.Add(card2);
                 player1.RemoveAt(player1.Count-1);
                 player2.RemoveAt(player2.Count-1);
-                Console.WriteLine("No winner in this round");
+                return "No winner in this round";
             }
             else if (card1>card2)
             {
@@ -102,9 +103,9 @@ namespace ShuffledDeckOfCards
                     discardPile1.AddRange(tempPile);
                     tempPile.Clear();
                 }
-                Console.WriteLine("Player 1 wins this round");
+                return "Player 1 wins this round";
             }
-            else if (card1<card2)
+            else if(card1<card2)
             {
                 discardPile2.Add(card2);
                 discardPile2.Add(card1);
@@ -115,8 +116,9 @@ namespace ShuffledDeckOfCards
                     discardPile2.AddRange(tempPile);
                     tempPile.Clear();
                 }
-                Console.WriteLine("Player 2 wins this round");
+                return "Player 2 wins this round";
             }
+            return null;
         }
 
         public void CreateAndReshufflePile()
@@ -146,10 +148,7 @@ namespace ShuffledDeckOfCards
                 Console.WriteLine($"Player 2 ({player2.Count} + {discardPile2.Count} res cards): {card2}");
                 Thread.Sleep(400);
 
-                CompareCard();
-                
-                //CheckPileCardCount(player1);
-                //CheckPileCardCount(player2);
+                Console.WriteLine(CompareCard(card1, card2)); 
             }
         }
     }
