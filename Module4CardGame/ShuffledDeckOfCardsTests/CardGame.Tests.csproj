@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Module4\ShuffledDeckOfCards.csproj" />
+    <ProjectReference Include="..\Module4\CardGame.csproj" />
   </ItemGroup>
 
 </Project>
