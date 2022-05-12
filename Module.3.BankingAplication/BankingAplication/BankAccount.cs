@@ -1,109 +1,46 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using TestingPart2BankAccount.Interfaces;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace TestingPart2BankAccount
+namespace BankingAplication
 {
-    public class Logger
+    public class BankAccount
     {
-        public static void Log(string message)
+        AbstractCustomer customer; 
+        //Logger logger =new Logger();
+
+        public BankAccount(AbstractCustomer newCustomer)
         {
-            Console.WriteLine(message);
-        }
-    }
-
-    abstract public class Customers
-    {
-        protected string FirstName { get; set; }
-        protected string SecondName { get; set; }
-
-        protected static int SSN;
-        protected decimal Balance { get; set; }
-        protected double RatePercents { get; set; }
-
-
-        public string GetInformation()
-        {
-            return $"First name: {FirstName}\n " +
-                $"Second name: {SecondName}\n " +
-                $"Balance: {Balance}\n " +
-                $"SSN: {SSN.ToString("{000}-{00}-{0000}")}";
+            customer =  newCustomer.MakeShallowCopy();
         }
 
-       
-    }
-
-    public class Ordinary : Customers, ISetRate, IGetInformation, IWithdraw
-    {
-        public Ordinary(decimal balance) { Balance = balance; }
-
-        public Ordinary(string firstName, string secondName, decimal balance)
+        public string ShowInfo()
         {
-            FirstName = firstName;
-            SecondName = secondName;
-            Balance = balance;
-            RatePercents = 5;
-            SSN++;
+            return customer.ShowInfo();
+        }
+        
+        public decimal Deposit(decimal amount, int years)
+        {
+            Logger.Log($"Log: Open a deposit by {customer.FirtsName} {customer.LastName}. " +
+                $"Account balance: {Math.Round(customer.Balance,2)}$\nDeposit amount: {amount}$; " +
+                $"Deposit term: {years} years; Base rate: {customer.Rate}%.");
+            return customer.Deposit(amount, years);
         }
 
         public decimal Withdraw(decimal amount)
         {
-            decimal amountForOrdinary = 400;
-            try
-            {
-                if (amountForOrdinary < amount || amount > Balance || amount < 0)
-                {
-                    throw new Exception("Incorrect amount");
-                }
-                Balance-=amount;
-                return amount;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Exception: {ex.Message}!");
-            }
-            return 0;
+            Logger.Log($"Log: Open a withdraw by {customer.FirtsName} {customer.LastName}. " +
+                $"Account balance: {Math.Round(customer.Balance,2)}$\nWithdraw amount: {amount}$");
+            return customer.Withdraw(amount);
         }
-    }
 
-    class Entepreneur : Customers
-    {
-        public Entepreneur(string firstName, string secondName, decimal balance)
+        public string RequestCredit(decimal amount, int years)
         {
-            FirstName = firstName;
-            SecondName = secondName;
-            Balance = balance;
-            RatePercents = 7;
-        }
-    }
-
-    public class BankAccount 
-    {
-
-        class Entepreneur : Customers
-        {
-            public Entepreneur(string firstName, string secondName, decimal balance)
-            {
-                FirstName = firstName;
-                SecondName = secondName;
-                Balance = balance;
-                RatePercents = 7; 
-            }
+            return customer.RequestCredit(amount, years);
         }
 
-        class VIP : Customers
-        {
-            public VIP(string firstName, string secondName, decimal balance)
-            {
-                FirstName = firstName;
-                SecondName = secondName;
-                Balance = balance;
-                RatePercents = 10;
-            }
-        }
 
     }
-
-
 }
