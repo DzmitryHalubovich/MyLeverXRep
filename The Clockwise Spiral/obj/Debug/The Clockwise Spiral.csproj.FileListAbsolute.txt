@@ -1,0 +1,6 @@
+G:\M1-NET Basics\The Clockwise Spiral\bin\Debug\The Clockwise Spiral.exe.config
+G:\M1-NET Basics\The Clockwise Spiral\bin\Debug\The Clockwise Spiral.exe
+G:\M1-NET Basics\The Clockwise Spiral\bin\Debug\The Clockwise Spiral.pdb
+G:\M1-NET Basics\The Clockwise Spiral\obj\Debug\The Clockwise Spiral.csproj.CoreCompileInputs.cache
+G:\M1-NET Basics\The Clockwise Spiral\obj\Debug\The Clockwise Spiral.exe
+G:\M1-NET Basics\The Clockwise Spiral\obj\Debug\The Clockwise Spiral.pdb

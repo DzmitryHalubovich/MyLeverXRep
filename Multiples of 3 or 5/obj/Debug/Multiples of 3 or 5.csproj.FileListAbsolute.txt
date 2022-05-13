@@ -1,0 +1,6 @@
+G:\M1-NET Basics\M1 - NET Basics\bin\Debug\M1 - NET Basics.exe.config
+G:\M1-NET Basics\M1 - NET Basics\bin\Debug\M1 - NET Basics.exe
+G:\M1-NET Basics\M1 - NET Basics\bin\Debug\M1 - NET Basics.pdb
+G:\M1-NET Basics\M1 - NET Basics\obj\Debug\Multiples of 3 or 5.csproj.CoreCompileInputs.cache
+G:\M1-NET Basics\M1 - NET Basics\obj\Debug\M1 - NET Basics.exe
+G:\M1-NET Basics\M1 - NET Basics\obj\Debug\M1 - NET Basics.pdb
